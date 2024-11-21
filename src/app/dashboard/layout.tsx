@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export default function dashboard({ children }: { children: ReactNode }){
+export default function dashboardLayout({ children }: { children: ReactNode }){
     return(
         <div>
             <nav style={{backgroundColor: 'darkcyan', padding: 10, color: 'white'}}>
